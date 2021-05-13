@@ -1,0 +1,64 @@
+body{
+  /*background-color: rgb(200, 228, 230);*/
+  background: url("Background Image.jpg");
+  font-family: "Arial",sans-serif;
+}
+
+.container1 {
+  height: 97vh;
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  padding: 30px 20px 30px 20px;
+  border: outset;
+}
+
+h1 {
+  color: rgb(74,74,74);
+  margin: 10px;
+}
+
+h4 {
+  color: rgb(74,74,74);
+  margin: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 20px 5px 10px 5px;
+}
+
+#user-label{
+  margin-bottom: 8px;
+}
+
+#pwd-label{
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+#pwd-input{
+  margin-bottom: 15px;
+}
+
+.button {
+  background-color: rgb(62, 53, 189);
+  padding: 10px;
+  color: white;
+  margin-top: 19px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}# LoginExample
